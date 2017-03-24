@@ -198,6 +198,9 @@ span {
   width: 40vw;
   height: 60vh;
 }
+@-ms-viewport{
+  width: device-width;
+}
 
 .prolinks {
   text-decoration: none;
@@ -247,6 +250,8 @@ span {
   }
 }
 .unstyled {
+  position: relative;
+  left: 50px;
   font-family: 'Limelight';
   text-decoration: none;
   color: #00A68E;
