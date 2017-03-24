@@ -4,6 +4,14 @@
   color:black;
 }
 
+.starfield {
+  height:100%;
+  left:0;
+  position:absolute;
+  top:0;
+  width:100%;
+  z-index:0;
+}
 
 .parallaxBG {
   perspective: 1px;
@@ -12,8 +20,9 @@
   width: 100vw;
   overflow-x: hidden;
   overflow-y: auto;
-  background-image: url("https://img.clipartfest.com/54406c95a827cf53595f24d5b3e2f1e0_image-sparrow-overlay-clipart-no-background_1167-876.png");
+  // background-image: url("https://previews.123rf.com/images/themalni/themalni1106/themalni110600128/9754798-Abstract-textured-background-with-black-white-and-red-splatters-Stock-Photo.jpg");
   background-size: cover;
+	// background-repeat: no-repeat;
 }
 .parallaxBG__layer {
   transform-origin-x: 100%;

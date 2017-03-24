@@ -1,25 +1,18 @@
-$(function() {
+$(".bg").interactive_bg({
+   strength: 25,
+   scale: 1.05,
+   animationSpeed: "100ms",
+   contain: true,
+   wrapContent: false
+   $(document).ready(function(){
+    $(".bg").interactive_bg(); // function call
+});
 
-       if(jQuery('#parallax').length != 0){
-
-        if(jQuery(window).width() > 980){
-
-
-
-            //apply parallax effect
-
-            jQuery('#parallax .parallax-layer').parallax(
-
-                {mouseport: jQuery('#parallax')}
-
-            );
-
-            $(window).load(function(){
-
-                jQuery('#parallax .parallax-layer').css('display','block');
-            });
-
-        }
-
-    }
+  // change background size on window resize
+  $(window).resize(function() {
+      $(".bg > .ibg-bg").css({
+        width: $(window).outerWidth(),
+        height: $(window).outerHeight()
+      })
+   })
  });
