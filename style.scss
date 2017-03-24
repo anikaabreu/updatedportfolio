@@ -35,6 +35,7 @@ ol, ul {
 }
 blockquote, q {
   quotes: none;
+
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -64,7 +65,7 @@ body {
   background: #252627;
   /*background-image: url('http://il9.picdn.net/shutterstock/videos/9793574/thumb/1.jpg');*/
   background-size: cover;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oranienbaum', sans-serif;
   color: #1B9C98;
   line-height: 1.3;
   -webkit-font-smoothing: antialiased;
@@ -86,10 +87,11 @@ body {
 }
 h1 {
   text-transform: uppercase;
-  padding-top: 90PX;
+  padding-top: 150px;
   font-size: 65px;
   font-weight: 700;
-  letter-spacing: 0.015em;
+  letter-spacing: 0.15em;
+  text-shadow: 2px 2px #111111;
 }
 h1::after {
   content: '';
@@ -157,70 +159,36 @@ p {
 }
 
 .Alogo {
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bolder;
   text-align: center;
   text-shadow: 3px 3px #08FDD8;
+  font-family: 'Limelight';
 }
 
-@-webkit-keyframes shake {
-  from, to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
 
-  10%, 30%, 50%, 70%, 90% {
-    -webkit-transform: translate3d(-10px, 0, 0);
-    transform: translate3d(-10px, 0, 0);
-  }
-
-  20%, 40%, 60%, 80% {
-    -webkit-transform: translate3d(10px, 0, 0);
-    transform: translate3d(10px, 0, 0);
-  }
-}
-
-@keyframes shake {
-  from, to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-
-  10%, 30%, 50%, 70%, 90% {
-    -webkit-transform: translate3d(-10px, 0, 0);
-    transform: translate3d(-10px, 0, 0);
-  }
-
-  20%, 40%, 60%, 80% {
-    -webkit-transform: translate3d(10px, 0, 0);
-    transform: translate3d(10px, 0, 0);
-  }
-}
-
-.shake {
-  -webkit-animation-name: shake;
-  animation-name: shake;
-}
 
 .animated:hover {
     color:#08fdd8;
 }
 
-#wobblewobble:hover {
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;
+.animated2:hover {
+    color:white;
+}
+
+span {
+  font-family: 'Limelight';
+  font-size: 95px;
+
 }
 
 .parallaxBG__layer--base {
   position: relative;
-  top: 90px;
+  top: 80px;
   margin: 0 auto;
   padding: 0;
-  width: 40vw;
+  width: 100vw;
   height: 100vh;
-  /*background-color: rgba(255, 65, 255, .5);*/
   transform: translateZ(0);
 }
 .parallaxBG__layer--back {
