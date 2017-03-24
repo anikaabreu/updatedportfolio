@@ -1,0 +1,72 @@
+.descriptionofme {
+  font-size: 20px;
+  /*width: 40%;*/
+  color:black;
+}
+
+
+.parallaxBG {
+  perspective: 1px;
+  perspective-origin-x: 100%;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-image: url("https://img.clipartfest.com/54406c95a827cf53595f24d5b3e2f1e0_image-sparrow-overlay-clipart-no-background_1167-876.png");
+  background-size: cover;
+}
+.parallaxBG__layer {
+  transform-origin-x: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallaxBG__layer--base {
+  position: relative;
+  top: 90px;
+  margin: 0 auto;
+  padding: 0;
+  width: 40vw;
+  height: 100vh;
+  /*background-color: rgba(255, 65, 255, .5);*/
+  transform: translateZ(0);
+}
+.parallaxBG__layer--back {
+  transform: translateZ(-1px) scale(2);
+}
+.parallaxBG__layer--deep {
+  transform: translateZ(-2px) scale(3);
+}
+.parallaxBG__group {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+  transform: translate3d(700px, 0, -800px) rotateY(30deg);
+}
+
+.parallax-viewport {
+  position: relative;
+  width:180vw;
+  height:80%;
+  margin-left:-780px;
+  /*margin-top: 70px;*/
+
+}
+
+.parallax-layer {
+  position:absolute;
+  text-align:center;
+  margin: 0;
+
+}
+.parallax1 {width: 850px; height: 893px; display: block; top: 74.5895%; margin-top: -427.398px; left: 24.6184%; margin-left: -133.874px;}
+
+.parallax2 {width: 200px; height: 673px; display: block; top: 74.5895%; margin-top: -427.398px; left: 24.6184%; margin-left: -1221.565px;}
+
+.parallax3 {width: 570px; height: 763px; display: block; top: 74.5895%; margin-top: -419.939px; left: 24.6184%; margin-left: -1238.798px;}
+
+.parallax4 {width: 760px; height: 533px; display: block; top: 74.5895%; margin-top: -397.562px; left: 24.6184%; margin-left: -1236.336px;}
+
+.parallax5 {width: 440px; height: 693px; display: block; top: 95.5895%; margin-top: -459.939px; left: 14.6184%; margin-left: -1231.413px;}
