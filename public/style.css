@@ -88,7 +88,7 @@ body {
 h1 {
   text-transform: uppercase;
   padding-top: 150px;
-  font-size: 65px;
+  font-size: 95px;
   font-weight: 700;
   letter-spacing: 0.15em;
   text-shadow: 2px 2px #111111;
@@ -164,7 +164,7 @@ p {
 }
 
 .Alogo {
-  
+  font-size: 50px;
   font-weight: bolder;
   text-align: center;
   text-shadow: 3px 3px #08FDD8;
@@ -181,7 +181,7 @@ p {
 
 span {
   font-family: 'Limelight';
-  font-size: 95px;
+
 
 }
 
