@@ -326,7 +326,8 @@ span {
   color: white;
   text-decoration: none;
   font-family: 'Limelight';
-
+  justify-content: space-around;
+      width: 100%;
 
 }
 
@@ -485,14 +486,14 @@ a {
     padding: 0 10px 0 43px;
   }
   .work-image-grid {
-    font-size: 30px;
+    font-size: 23px;
     height: 100%;
     width: 100%;
     position: inherit;
     top: 0;
     left: 0;
     transform: inherit;
-    display: inline-block;
+    display: inline-flex;
     color: white;
     text-decoration: none;
   }
